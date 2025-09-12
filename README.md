@@ -1,5 +1,4 @@
 # Retail Demand Forecasting & Price Elasticity
-# Retail Demand Forecasting & Price Elasticity
 
 This repository contains the code and pipeline for an end-to-end machine learning project focused on **retail demand forecasting** and **price elasticity modeling**.  
 The project builds predictive models to forecast product demand and estimate the sensitivity of sales to price changes.  
