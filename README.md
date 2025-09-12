@@ -34,6 +34,12 @@ This enables retailers to optimize inventory planning, promotions, and pricing s
 - Analyzed correlation between price, demand, and promotions.  
 - Identified clusters of products with similar sales dynamics.  
 
+**Example Visualization – Sales Trend for a Product/Store:**  
+![Sales Trend](data/reports/sales_trend.png)
+
+**Total Demand Over Time (All Products):**  
+![Total Series](data/reports/total_series.png)
+
 ---
 
 ### 3. Model Development
@@ -46,6 +52,12 @@ This enables retailers to optimize inventory planning, promotions, and pricing s
   - Baseline RMSE ≈ 2.60  
   - Tuned LightGBM RMSE ≈ 2.53  
 
+**Model Performance – Actual vs Predicted Demand:**  
+![Actual vs Predicted](data/reports/actual_vs_pred.png)
+
+**Error Distribution (Prediction Residuals):**  
+![Error Histogram](data/reports/error_hist.png)
+
 ---
 
 ### 4. Price Elasticity Estimation
@@ -54,6 +66,9 @@ This enables retailers to optimize inventory planning, promotions, and pricing s
 - Elasticity values provide actionable insight into:  
   - Which products are price-sensitive (elastic).  
   - Which products sustain demand even under price changes (inelastic).  
+
+**Price Elasticity Visualization (Log-Log Scatter):**  
+![Elasticity Scatter](data/reports/elasticity_scatter.png)
 
 ---
 
