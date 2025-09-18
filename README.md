@@ -41,7 +41,8 @@ This enables retailers to optimize inventory planning, promotions, and pricing s
 
 
 **Total Demand Over Time (All Products)**  
-![Total Series](data/reports/total_series.png)
+<img width="1484" height="579" alt="total_series" src="https://github.com/user-attachments/assets/bb560416-867c-464b-b75a-1aa24e837523" />
+
 
 ---
 
@@ -55,10 +56,12 @@ This enables retailers to optimize inventory planning, promotions, and pricing s
 📊 **Example Outputs**
 
 **Actual vs Predicted Demand**  
-![Actual vs Predicted](data/reports/actual_vs_pred.png)
+<img width="796" height="817" alt="actual_vs_pred" src="https://github.com/user-attachments/assets/0f9f37b9-4165-4e61-92c3-4480f10ef0f2" />
+
 
 **Error Distribution**  
-![Error Histogram](data/reports/error_hist.png)
+<img width="1184" height="581" alt="error_hist" src="https://github.com/user-attachments/assets/4bcfca40-baf8-4826-b1dc-2dcf8fa50f0a" />
+
 
 ---
 
@@ -70,7 +73,8 @@ This enables retailers to optimize inventory planning, promotions, and pricing s
   - Which products sustain demand even under price changes (inelastic).  
 
 📊 **Price Elasticity Example**  
-![Elasticity Scatter](data/reports/elasticity_scatter.png)
+<img width="803" height="729" alt="elasticity_scatter" src="https://github.com/user-attachments/assets/78d6c293-9174-43ac-9608-89a6967a0efe" />
+
 
 ---
 
@@ -100,8 +104,7 @@ It consists of:
 - Product catalog and metadata.  
 - Pricing and promotion history.  
 - Calendar/holiday information.  
-
-*(Replace with your real dataset source if applicable.)*  
+ 
 
 ---
 
