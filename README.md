@@ -37,7 +37,8 @@ This enables retailers to optimize inventory planning, promotions, and pricing s
 📊 **Example Visualizations**
 
 **Sales Trend for a Product**  
-![Sales Trend](data/reports/sales_trend.png)
+<img width="1262" height="586" alt="sales_trend" src="https://github.com/user-attachments/assets/3cae38f1-5005-452a-beca-1059ceb70b35" />
+
 
 **Total Demand Over Time (All Products)**  
 ![Total Series](data/reports/total_series.png)
