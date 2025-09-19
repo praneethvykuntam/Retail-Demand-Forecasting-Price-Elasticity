@@ -8,11 +8,21 @@ It is structured for scalability, reproducibility, and integration into enterpri
 
 ## 🎯 Main Objective
 
-The primary objective of this project is to forecast product demand at the SKU/store level while also quantifying **price elasticity**.  
-This enables retailers to optimize inventory planning, promotions, and pricing strategies.  
+This project focuses on solving a core retail problem: how much of each product to stock and at what price. Retailers often struggle with balancing inventory against demand while adjusting prices to stay competitive. 
 
-- **Demand Forecasting**: Predict short-term and long-term demand to improve replenishment decisions.  
-- **Price Elasticity Modeling**: Estimate how changes in price affect demand to support dynamic pricing.  
+- Put simply, this work answers two critical business questions:
+
+1. How many units of a product should we expect to sell in the coming weeks or months?
+
+2. How much does demand increase or decrease if we change the price?
+
+To answer these, I developed a solution that:
+
+- Forecasts demand at the SKU–store level with high accuracy.
+
+- Quantifies price elasticity to measure how customer demand responds to price adjustments.
+
+This enables managers to make data-driven decisions for replenishment, promotions, and dynamic pricing.
 
 ---
 
