@@ -19,7 +19,7 @@ The solution addresses critical business challenges in retail operations, includ
 
 ## 📊 Project Overview Dashboard
 
-![Retail Forecasting Dashboard](data/reports/sales_trend.png)
+![Retail Forecasting Dashboard](./data/reports/sales_trend.png)
 
 *Comprehensive analysis dashboard showing sales trends, model performance, and price elasticity insights*
 
@@ -89,11 +89,11 @@ Comprehensive exploratory data analysis was conducted to understand the dataset 
 #### Key Visualizations
 
 **Sales Trend Analysis**
-![Sales Trend](data/reports/sales_trend.png)
+![Sales Trend](./data/reports/sales_trend.png)
 *Time series analysis showing sales patterns for top-performing product-store combinations*
 
 **Total Demand Forecasting**
-![Total Series](data/reports/total_series.png)
+![Total Series](./data/reports/total_series.png)
 *Aggregated demand forecasting across all products showing actual vs predicted performance*
 
 ---
@@ -137,11 +137,11 @@ Comprehensive evaluation using multiple metrics:
 **Model Performance Visualization**
 
 **Actual vs Predicted Demand**
-![Actual vs Predicted](data/reports/actual_vs_pred.png)
+![Actual vs Predicted](./data/reports/actual_vs_pred.png)
 *Scatter plot showing the correlation between actual and predicted demand values*
 
 **Prediction Error Distribution**
-![Error Histogram](data/reports/error_hist.png)
+![Error Histogram](./data/reports/error_hist.png)
 *Histogram showing the distribution of prediction errors, indicating model bias and variance*
 
 ---
@@ -164,7 +164,7 @@ Implemented sophisticated price elasticity analysis using econometric methods:
 #### Elasticity Insights
 
 **Price Elasticity Visualization**
-![Price Elasticity](data/reports/elasticity_scatter.png)
+![Price Elasticity](./data/reports/elasticity_scatter.png)
 *Log-log scatter plot showing price-quantity relationship and estimated elasticity coefficient*
 
 **Key Findings**:
