@@ -17,14 +17,6 @@ The solution addresses critical business challenges in retail operations, includ
 
 ---
 
-## 📊 Project Overview Dashboard
-
-![Retail Forecasting Dashboard](./data/reports/sales_trend.png)
-
-*Comprehensive analysis dashboard showing sales trends, model performance, and price elasticity insights*
-
----
-
 ## ⚙️ Project Steps
 
 ### 1. Data Preprocessing
@@ -89,11 +81,13 @@ Comprehensive exploratory data analysis was conducted to understand the dataset 
 #### Key Visualizations
 
 **Sales Trend Analysis**
-![Sales Trend](./data/reports/sales_trend.png)
+<img width="1250" height="560" alt="sales_trend" src="https://github.com/user-attachments/assets/059b48ba-90b7-4718-929c-a71c2fc064c6" />
+
 *Time series analysis showing sales patterns for top-performing product-store combinations*
 
 **Total Demand Forecasting**
-![Total Series](./data/reports/total_series.png)
+<img width="1250" height="560" alt="total_series" src="https://github.com/user-attachments/assets/91c65f50-40b0-4642-824d-b36818ecc679" />
+
 *Aggregated demand forecasting across all products showing actual vs predicted performance*
 
 ---
@@ -137,11 +131,13 @@ Comprehensive evaluation using multiple metrics:
 **Model Performance Visualization**
 
 **Actual vs Predicted Demand**
-![Actual vs Predicted](./data/reports/actual_vs_pred.png)
+<img width="796" height="817" alt="actual_vs_pred" src="https://github.com/user-attachments/assets/901ce0de-c655-4ffc-984b-66947e175358" />
+
 *Scatter plot showing the correlation between actual and predicted demand values*
 
 **Prediction Error Distribution**
-![Error Histogram](./data/reports/error_hist.png)
+<img width="1184" height="581" alt="error_hist" src="https://github.com/user-attachments/assets/7bba8ba4-c976-48db-a545-273c9de12f8b" />
+
 *Histogram showing the distribution of prediction errors, indicating model bias and variance*
 
 ---
@@ -164,7 +160,8 @@ Implemented sophisticated price elasticity analysis using econometric methods:
 #### Elasticity Insights
 
 **Price Elasticity Visualization**
-![Price Elasticity](./data/reports/elasticity_scatter.png)
+<img width="803" height="729" alt="elasticity_scatter" src="https://github.com/user-attachments/assets/f13bd99a-829d-495c-bfbb-94f742eff023" />
+
 *Log-log scatter plot showing price-quantity relationship and estimated elasticity coefficient*
 
 **Key Findings**:
