@@ -8,6 +8,7 @@ This is an end-to-end solution designed for scalability, reproducibility, and in
 
 ## 🎯 Main Objective
 
+<<<<<<< HEAD
 The primary objective of this project is to build a robust machine learning system that can accurately predict product demand at the SKU/store level while simultaneously quantifying **price elasticity** - the sensitivity of demand to price changes. This dual-purpose approach enables retailers to:
 
 - **Demand Forecasting**: Predict short-term and long-term demand patterns to improve replenishment decisions, reduce stockouts, and minimize overstock costs
@@ -22,6 +23,23 @@ The solution addresses critical business challenges in retail operations, includ
 ![Retail Forecasting Dashboard](data/reports/sales_trend.png)
 
 *Comprehensive analysis dashboard showing sales trends, model performance, and price elasticity insights*
+=======
+This project focuses on solving a core retail problem: how much of each product to stock and at what price. Retailers often struggle with balancing inventory against demand while adjusting prices to stay competitive. 
+
+- Put simply, this work answers two critical business questions:
+
+1. How many units of a product should we expect to sell in the coming weeks or months?
+
+2. How much does demand increase or decrease if we change the price?
+
+To answer these, I developed a solution that:
+
+- Forecasts demand at the SKU–store level with high accuracy.
+
+- Quantifies price elasticity to measure how customer demand responds to price adjustments.
+
+This enables managers to make data-driven decisions for replenishment, promotions, and dynamic pricing.
+>>>>>>> e86ca092efa94cb3549a2d066801a67a1729601c
 
 ---
 
@@ -71,6 +89,7 @@ Implemented time-based data splitting to maintain temporal integrity:
 
 Comprehensive exploratory data analysis was conducted to understand the dataset structure, identify patterns, and inform modeling decisions:
 
+<<<<<<< HEAD
 #### Sales Pattern Analysis
 - **Seasonal Trends**: Identified recurring patterns in sales data across different time periods
 - **Product Performance**: Analyzed sales distribution across product categories and individual SKUs
@@ -95,6 +114,15 @@ Comprehensive exploratory data analysis was conducted to understand the dataset 
 **Total Demand Forecasting**
 ![Total Series](data/reports/total_series.png)
 *Aggregated demand forecasting across all products showing actual vs predicted performance*
+=======
+**Sales Trend for a Product**  
+<img width="1262" height="586" alt="sales_trend" src="https://github.com/user-attachments/assets/3cae38f1-5005-452a-beca-1059ceb70b35" />
+
+
+**Total Demand Over Time (All Products)**  
+<img width="1484" height="579" alt="total_series" src="https://github.com/user-attachments/assets/bb560416-867c-464b-b75a-1aa24e837523" />
+
+>>>>>>> e86ca092efa94cb3549a2d066801a67a1729601c
 
 ---
 
@@ -103,6 +131,7 @@ Comprehensive exploratory data analysis was conducted to understand the dataset 
 #### Model Architecture
 Implemented a comprehensive machine learning pipeline with multiple model types:
 
+<<<<<<< HEAD
 **Baseline Models**:
 - **Naïve Forecast**: Simple persistence model as baseline
 - **Moving Average**: Historical average-based predictions
@@ -143,11 +172,21 @@ Comprehensive evaluation using multiple metrics:
 **Prediction Error Distribution**
 ![Error Histogram](data/reports/error_hist.png)
 *Histogram showing the distribution of prediction errors, indicating model bias and variance*
+=======
+**Actual vs Predicted Demand**  
+<img width="796" height="817" alt="actual_vs_pred" src="https://github.com/user-attachments/assets/0f9f37b9-4165-4e61-92c3-4480f10ef0f2" />
+
+
+**Error Distribution**  
+<img width="1184" height="581" alt="error_hist" src="https://github.com/user-attachments/assets/4bcfca40-baf8-4826-b1dc-2dcf8fa50f0a" />
+
+>>>>>>> e86ca092efa94cb3549a2d066801a67a1729601c
 
 ---
 
 ### 4. Price Elasticity Analysis
 
+<<<<<<< HEAD
 #### Elasticity Estimation Methodology
 Implemented sophisticated price elasticity analysis using econometric methods:
 
@@ -177,6 +216,11 @@ Implemented sophisticated price elasticity analysis using econometric methods:
 - **Promotional Planning**: Targeted promotions for elastic products
 - **Revenue Management**: Strategic pricing for inelastic products
 - **Category Management**: Product portfolio optimization based on elasticity patterns
+=======
+📊 **Price Elasticity Example**  
+<img width="803" height="729" alt="elasticity_scatter" src="https://github.com/user-attachments/assets/78d6c293-9174-43ac-9608-89a6967a0efe" />
+
+>>>>>>> e86ca092efa94cb3549a2d066801a67a1729601c
 
 ---
 
@@ -235,6 +279,7 @@ This project delivers significant business value across multiple retail function
 
 ## 🛠️ Technical Implementation
 
+<<<<<<< HEAD
 ### Technology Stack
 - **Python 3.8+**: Core programming language
 - **LightGBM**: Primary machine learning framework
@@ -269,6 +314,15 @@ Retail_Demand_Forecasting_Price_Elasticity/
 - **Scalable Design**: Enterprise-ready architecture
 - **Comprehensive Testing**: Unit and integration test coverage
 - **Documentation**: Detailed code documentation and user guides
+=======
+The dataset used is synthetic/representative of real-world retail transactional and pricing data.  
+It consists of:  
+- Historical sales transactions.  
+- Product catalog and metadata.  
+- Pricing and promotion history.  
+- Calendar/holiday information.  
+ 
+>>>>>>> e86ca092efa94cb3549a2d066801a67a1729601c
 
 ---
 
