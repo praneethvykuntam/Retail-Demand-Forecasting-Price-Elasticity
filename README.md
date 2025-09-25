@@ -8,7 +8,7 @@ This is an end-to-end solution designed for scalability, reproducibility, and in
 
 ## 🎯 Main Objective
 
-<<<<<<< HEAD
+
 The primary objective of this project is to build a robust machine learning system that can accurately predict product demand at the SKU/store level while simultaneously quantifying **price elasticity** - the sensitivity of demand to price changes. This dual-purpose approach enables retailers to:
 
 - **Demand Forecasting**: Predict short-term and long-term demand patterns to improve replenishment decisions, reduce stockouts, and minimize overstock costs
