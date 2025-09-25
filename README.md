@@ -17,13 +17,6 @@ The solution addresses critical business challenges in retail operations, includ
 
 ---
 
-## 📊 Project Overview Dashboard
-
-![Retail Forecasting Dashboard](data/reports/sales_trend.png)
-
-*Comprehensive analysis dashboard showing sales trends, model performance, and price elasticity insights*
-
----
 
 ## ⚙️ Project Steps
 
